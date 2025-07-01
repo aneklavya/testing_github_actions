@@ -4,12 +4,12 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   push:
     branches:
-      -main
-      -dev
+      - main
+      - dev
       
   pull_request:
     branches:
-      -main
+      - main
 
 jobs:
   Explore-GitHub-Actions:
